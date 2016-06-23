@@ -1,4 +1,4 @@
-# FeedHenry WFM signature module
+# FeedHenry WFM signature module [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-signature.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-signature)
 
 A signature module for FeedHenry WFM.
 
