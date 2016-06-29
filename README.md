@@ -1,6 +1,6 @@
-# FeedHenry WFM signature module
+# FeedHenry RainCatcher signature module
 
-A signature module for FeedHenry WFM.
+A signature module for FeedHenry RainCatcher.
 
 ## Setup
 This module is packaged in a CommonJS format, exporting the name of the Angular namespace.  The module can be included in an angular.js as follows:
