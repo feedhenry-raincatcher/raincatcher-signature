@@ -1,6 +1,6 @@
 {
   "name": "fh-wfm-signature",
-  "version": "0.0.18-alpha.2",
+  "version": "0.0.18-alpha.3",
   "description": "A signature component for FeedHenry WFM.",
   "main": "lib/angular/signature-ng.js",
   "repository": {
@@ -24,7 +24,7 @@
   "devDependencies": {
     "eslint-config-angular": "^0.5.0",
     "eslint-plugin-angular": "^1.4.1",
-    "fh-wfm-mediator": "0.3.1-alpha.1",
+    "fh-wfm-mediator": "0.3.1-alpha.2",
     "fh-wfm-template-build": "0.2.1",
     "grunt": "^1.0.1",
     "grunt-eslint": "^18.0.0"
