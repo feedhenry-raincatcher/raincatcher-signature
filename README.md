@@ -16,8 +16,19 @@ angular.module('app', [
 
 ### Collecting signatures
 The Base64 encoded signature will be assigned to the value attribute of the `signature-form` directive.
+
+Default mime-type is `image/png`, however, this can be overriden by passing mime-type value via encoding attribute.
+
+The image quality can also be adjusted by setting the `image-quality` attribute. See table below for details.
+
+|    Name    | Low | medium | High |
+| ---------- | --- | ------ | ---- |
+| image/jpeg | 0.1 |   0.5  |   1  |
+| image/png  | 0.1 |   0.5  |   1  |
+| image/webp | 0.1 |   0.5  |   1  |
+
 ```html
-<signature-form value="ctrl.model"></signature-form>
+<signature-form value="ctrl.model" encoding="image/jpeg" image-quality="0.5"></signature-form>
 ```
 
 ### Displaying signatures
@@ -38,5 +49,5 @@ Include the module SASS file in your application sass:
 
 | Name | Attributes |
 | ---- | ----------- |
-| signature-form | value, options |
+| signature-form | value, options, encoding,  |
 | signature | value |
