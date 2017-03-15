@@ -49,5 +49,5 @@ Include the module SASS file in your application sass:
 
 | Name | Attributes |
 | ---- | ----------- |
-| signature-form | value, options, encoding,  |
+| signature-form | value, options, encoding, image-quality |
 | signature | value |
