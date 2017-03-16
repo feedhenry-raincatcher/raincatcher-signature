@@ -26,6 +26,12 @@ The `src` attribute of the image tag is bound to the `value` attribute of the si
 <signature value="ctrl.model"></signature>
 ```
 
+### Clearing signatures
+Trigger the `ClearCanvas` $broadcast from the parent so the module can pick it up.
+```html
+<md-button class="md-primary" ng-click="$broadcast(\'ClearCanvas\')">Clear</md-button>
+```
+
 ### Signature CSS styles
 Include the module SASS file in your application sass:
 ```sass
